@@ -1,0 +1,76 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../img/fondo-login-spa.jpg");
+}
+
+#wrapperLogin{
+	width: 100%;
+	height: 800px;
+	margin: auto;
+}
+
+#headerLogin{
+	margin: auto;
+	width: 100%;
+	height: 200px;
+	/*border:2px solid #000;*/
+}
+
+/****3 cajas en el header del login****/
+#informacion{
+	float: left;
+	width: 420px;
+	height: 195px;
+	/*border:2px solid #FFF;*/
+	color: #FFF;
+	font-size: 17px;
+}
+
+#banner{
+	float: left;
+	width: 650; 
+	height: 195px;
+	/*border:2px solid #FF5733;*/
+}
+
+#cajaMenu{
+	float: left;
+	width: 417px;
+	height: 195px;
+	font-size: 17px;
+	/*border:2px solid #FFF;*/
+}
+
+/****3 cajas en el header del login****/
+
+
+#containerLogin{
+	margin: auto;
+	width: 350px;
+	height: 355px;
+	color: #FDFCFB;
+	font-size: 18px;
+	background-image: url("../img/Recuadro_login.gif");
+	/*border:4px solid #FFF;*/
+}
+
+
+#mostrar_login{
+	margin: auto;
+	width: 320px;
+	height: 320px;
+}
+
+#footerLogin{
+	margin-top: 20px;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+	/*border:solid;*/
+}
+
+.form-group .required .control-label:after {
+  content:"*";color:red;
+}

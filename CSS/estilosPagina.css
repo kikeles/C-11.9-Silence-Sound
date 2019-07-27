@@ -1,0 +1,138 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("../img/fondo-login-spa.jpg");
+}
+
+header{
+	/*border:4px solid #FFF;*/
+	width: 100%;
+	height: 120px;
+}
+
+#cajaBanner{
+	/*border:solid;*/
+	float: left;
+	width: 200px;
+	height: 110px;
+	margin-bottom: 20px;
+}
+
+#cajaInformacion{
+	/*border:2px solid #FFF;*/
+	float: left;
+	width: 940px;
+	height: 110px;
+	text-align: center;
+}
+
+#presentacion{
+	margin:auto;
+	width:400px;
+	height:55px;
+	background-color: #eda844;
+	border:groove;
+	border-radius: 10px;
+	border-color: #e2bd62;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Forte","Times New Roman", Times, serif;
+	color:  #565554;
+
+}
+
+#listasUsuario{
+	/*border: groove;
+	border-radius: 5px;
+	border-color: #B8C7D3;*/
+	width: 935px;
+	height: 50px;
+	background-color: #2A6A6E;
+	margin:auto;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 7px;
+}
+
+#cajaSalir{
+	/*border:solid;*/
+	float: left;
+	width: 200px;
+	height: 110px;
+}
+
+
+/***** menu *****/
+	.navegacion{
+		/*background-color: #353433;*/
+		width: 200px;
+		margin: auto;
+	}
+	
+	.navegacion ul{
+		list-style: none;/*quita la lista desordenada*/
+	}
+
+	.menu > li{
+		position: relative;
+		display: inline-block;
+	}
+
+	.menu > li > a{
+		display: block;
+		padding: 10px 30px;
+		color: #FFFFFF;
+		font-family: "Broadway","Times New Roman", Times, serif;
+		text-decoration: none;/*quita el subrayado del enlace*/
+	}
+
+	.menu li a:hover{
+		color: #545150;
+		transition: all .3s;
+	}
+
+	/****submenu****/
+	.submenu{
+		position: absolute;
+		background-color:  #86a9af;
+		width: 100%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 1.0s;/*solo funciona con el opacity al seleccionar*/
+		padding: 5px;
+	}
+
+	.submenu li a{
+		display: block;
+		padding: 5px;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 15px;
+		font-family:"Times New Roman", Times, serif;
+		text-decoration: none;
+	}
+
+	.menu li:hover .submenu{
+		visibility: visible;
+		opacity: 1;
+	}
+
+
+
+
+/*****container bisializacion de la tabla dinamica*******/
+#containerTabla{
+	width: 100%;
+	height: 420px;
+	margin-top: 30px;
+	border: #FFF;
+	margin-bottom: 45px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+footer{
+	text-align: center;
+	font-size: 15px;
+}
