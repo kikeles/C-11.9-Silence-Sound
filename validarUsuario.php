@@ -1,7 +1,7 @@
 <?php
    session_start();
    $_SESSION['usuario'] = "";
-   $_SESSION['id_user'] = 3;
+   $_SESSION['id_user'] = 0;
    require_once "conexion.php";
    $conexion = conexion();
 
